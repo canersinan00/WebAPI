@@ -277,3 +277,7 @@ E:\Projects\.Net\WebAPI\WebApi\obj\Debug\net8.0\refint\WebApi.dll
 E:\Projects\.Net\WebAPI\WebApi\obj\Debug\net8.0\WebApi.pdb
 E:\Projects\.Net\WebAPI\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 E:\Projects\.Net\WebAPI\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

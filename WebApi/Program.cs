@@ -3,6 +3,9 @@ using WebApi.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers()
+    .AddNewtonsoftJson();
+
 // Add services to the container.
 
 builder.Services.AddControllers();
