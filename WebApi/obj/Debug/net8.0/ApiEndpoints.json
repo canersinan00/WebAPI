@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "WebApi.Controllers.BooksController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/Books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

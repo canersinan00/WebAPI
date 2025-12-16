@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Projects\\.Net\\bsStoreApp\\",
+  "WorkspaceRootPath": "E:\\Projects\\.Net\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\.Net\\bsStoreApp\\WebApi\\Migrations\\20251216120138_seedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApi\\Migrations\\20251216120138_seedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84B54E89-B03C-49BF-AD0A-A10C98BAFDA8}|WebApi\\WebApi.csproj|e:\\projects\\.net\\webapi\\webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B54E89-B03C-49BF-AD0A-A10C98BAFDA8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84B54E89-B03C-49BF-AD0A-A10C98BAFDA8}|WebApi\\WebApi.csproj|e:\\projects\\.net\\bsstoreapp\\webapi\\repositories\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84B54E89-B03C-49BF-AD0A-A10C98BAFDA8}|WebApi\\WebApi.csproj|e:\\projects\\.net\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84B54E89-B03C-49BF-AD0A-A10C98BAFDA8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84B54E89-B03C-49BF-AD0A-A10C98BAFDA8}|WebApi\\WebApi.csproj|e:\\projects\\.net\\webapi\\webapi\\repositories\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84B54E89-B03C-49BF-AD0A-A10C98BAFDA8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84B54E89-B03C-49BF-AD0A-A10C98BAFDA8}|WebApi\\WebApi.csproj|e:\\projects\\.net\\bsstoreapp\\webapi\\repositories\\config\\bookconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84B54E89-B03C-49BF-AD0A-A10C98BAFDA8}|WebApi\\WebApi.csproj|e:\\projects\\.net\\webapi\\webapi\\repositories\\config\\bookconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84B54E89-B03C-49BF-AD0A-A10C98BAFDA8}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\config\\bookconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,28 +26,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20251216120138_seedData.cs",
-              "DocumentMoniker": "E:\\Projects\\.Net\\bsStoreApp\\WebApi\\Migrations\\20251216120138_seedData.cs",
-              "RelativeDocumentMoniker": "WebApi\\Migrations\\20251216120138_seedData.cs",
-              "ToolTip": "E:\\Projects\\.Net\\bsStoreApp\\WebApi\\Migrations\\20251216120138_seedData.cs",
-              "RelativeToolTip": "WebApi\\Migrations\\20251216120138_seedData.cs",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\.Net\\WebAPI\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "E:\\Projects\\.Net\\WebAPI\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T12:01:38.359Z",
+              "WhenOpened": "2025-12-16T12:34:41.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "E:\\Projects\\.Net\\WebAPI\\WebApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\BooksController.cs",
+              "ToolTip": "E:\\Projects\\.Net\\WebAPI\\WebApi\\Controllers\\BooksController.cs*",
+              "RelativeToolTip": "WebApi\\Controllers\\BooksController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAASwBQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T12:13:13.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RepositoryContext.cs",
-              "DocumentMoniker": "E:\\Projects\\.Net\\bsStoreApp\\WebApi\\Repositories\\RepositoryContext.cs",
+              "DocumentMoniker": "E:\\Projects\\.Net\\WebAPI\\WebApi\\Repositories\\RepositoryContext.cs",
               "RelativeDocumentMoniker": "WebApi\\Repositories\\RepositoryContext.cs",
-              "ToolTip": "E:\\Projects\\.Net\\bsStoreApp\\WebApi\\Repositories\\RepositoryContext.cs",
+              "ToolTip": "E:\\Projects\\.Net\\WebAPI\\WebApi\\Repositories\\RepositoryContext.cs",
               "RelativeToolTip": "WebApi\\Repositories\\RepositoryContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,16 +69,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BookConfig.cs",
-              "DocumentMoniker": "E:\\Projects\\.Net\\bsStoreApp\\WebApi\\Repositories\\Config\\BookConfig.cs",
+              "DocumentMoniker": "E:\\Projects\\.Net\\WebAPI\\WebApi\\Repositories\\Config\\BookConfig.cs",
               "RelativeDocumentMoniker": "WebApi\\Repositories\\Config\\BookConfig.cs",
-              "ToolTip": "E:\\Projects\\.Net\\bsStoreApp\\WebApi\\Repositories\\Config\\BookConfig.cs",
+              "ToolTip": "E:\\Projects\\.Net\\WebAPI\\WebApi\\Repositories\\Config\\BookConfig.cs",
               "RelativeToolTip": "WebApi\\Repositories\\Config\\BookConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T11:47:31.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T11:47:31.043Z"
             }
           ]
         }
