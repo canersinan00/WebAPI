@@ -1,0 +1,16 @@
+E:\Projects\.Net\WebAPI\Repositories\bin\Debug\net8.0\Repositories.deps.json
+E:\Projects\.Net\WebAPI\Repositories\bin\Debug\net8.0\Repositories.dll
+E:\Projects\.Net\WebAPI\Repositories\bin\Debug\net8.0\Repositories.pdb
+E:\Projects\.Net\WebAPI\Repositories\bin\Debug\net8.0\Entities.dll
+E:\Projects\.Net\WebAPI\Repositories\bin\Debug\net8.0\Entities.pdb
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\Repositories.dll
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\Repositories.pdb
+E:\Projects\.Net\WebAPI\Repositories\obj\Debug\net8.0\ref\Repositories.dll

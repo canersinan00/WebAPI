@@ -283,3 +283,5 @@ E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Entities.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Entities.pdb
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Repositories.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Repositories.pdb
