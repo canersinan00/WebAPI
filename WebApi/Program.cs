@@ -15,7 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfifureRepositoryManager();
-
+builder.Services.ConfigureServiceManager();
 
 var app = builder.Build();
 
