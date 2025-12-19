@@ -1,4 +1,4 @@
-﻿using Repositories.Contracts;
+using Repositories.Contracts;
 using Services.Contract;
 using System;
 using System.Collections.Generic;
@@ -11,9 +11,10 @@ namespace Services
     public class ServiceManager : IServiceManager
     {
         private readonly Lazy<IBookService> _bookService;
-        public ServiceManager(IRepositoryManager repositoryManager)
+        public ServiceManager(IRepositoryManager repositoryManager
+            ,ILoggerService  logger)
         {
-            _bookService = new Lazy<IBookService>(() => new BookManager(repositoryManager));
+            _bookService = new Lazy<IBookService>(() => new BookManager(repositoryManager,logger));
         }
         public IBookService BookService => _bookService.Value;
     }

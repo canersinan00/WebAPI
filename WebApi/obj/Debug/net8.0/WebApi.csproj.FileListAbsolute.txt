@@ -296,3 +296,6 @@ E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Presentation.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Services.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Presentation.pdb
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Services.pdb
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\nlog.config
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\NLog.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\NLog.Extensions.Logging.dll
