@@ -1,16 +1,17 @@
 ﻿using Entities.Models;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using Repositories.Contracts;
-using Repositories.EFCore;
 using Services.Contract;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace WebApi.Controllers
+namespace Presentation.Controller
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/books")]
     public class BooksController : ControllerBase
     {
         private readonly IServiceManager _manager;
@@ -35,13 +36,13 @@ namespace WebApi.Controllers
         }
 
         [HttpGet("{id:int}")]
-        public IActionResult GetOneBook([FromRoute(Name = "id")]int id) 
+        public IActionResult GetOneBook([FromRoute(Name = "id")] int id)
         {
             try
             {
                 var book = _manager
                 .BookService
-                .GetOneBookById(id,false);
+                .GetOneBookById(id, false);
 
                 if (book is null)
                 {
@@ -65,7 +66,7 @@ namespace WebApi.Controllers
                     return BadRequest();
                 }
                 _manager.BookService.CreateOneBook(book);
-                return StatusCode(201,book);
+                return StatusCode(201, book);
             }
             catch (Exception ex)
             {
@@ -84,7 +85,7 @@ namespace WebApi.Controllers
                 {
                     return BadRequest();
                 }
-                _manager.BookService.UpdateOneBook(id,book,true);
+                _manager.BookService.UpdateOneBook(id, book, true);
 
                 return NoContent();
             }
@@ -96,11 +97,11 @@ namespace WebApi.Controllers
         }
 
         [HttpDelete("{id:int}")]
-        public IActionResult DeleteOneBooks([FromRoute(Name ="id")] int id)
+        public IActionResult DeleteOneBooks([FromRoute(Name = "id")] int id)
         {
             try
             {
-                _manager.BookService.DeleteoneBook(id,false);
+                _manager.BookService.DeleteoneBook(id, false);
 
                 return NoContent();
 
@@ -127,7 +128,7 @@ namespace WebApi.Controllers
                 }
 
                 bookpatch.ApplyTo(entitiy);
-                _manager.BookService.UpdateOneBook(id,entitiy,true);
+                _manager.BookService.UpdateOneBook(id, entitiy, true);
 
                 return NoContent();
 
@@ -135,7 +136,7 @@ namespace WebApi.Controllers
             catch (Exception ex)
             {
 
-                throw new Exception (ex.Message);
+                throw new Exception(ex.Message);
             }
         }
     }

@@ -285,3 +285,14 @@ E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Entities.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Entities.pdb
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Repositories.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Repositories.pdb
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Presentation.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Services.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Presentation.pdb
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Services.pdb

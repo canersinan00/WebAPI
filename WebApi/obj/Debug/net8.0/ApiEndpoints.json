@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "WebApi.Controllers.BooksController",
+    "ContainingType": "Presentation.Controller.BooksController",
     "Method": "GetAllBooks",
-    "RelativePath": "api/Books",
+    "RelativePath": "api/books",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,9 +10,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApi.Controllers.BooksController",
+    "ContainingType": "Presentation.Controller.BooksController",
     "Method": "CreateOneBook",
-    "RelativePath": "api/Books",
+    "RelativePath": "api/books",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -26,9 +26,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApi.Controllers.BooksController",
+    "ContainingType": "Presentation.Controller.BooksController",
     "Method": "GetOneBook",
-    "RelativePath": "api/Books/{id}",
+    "RelativePath": "api/books/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,9 +42,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApi.Controllers.BooksController",
+    "ContainingType": "Presentation.Controller.BooksController",
     "Method": "UpdateOneBook",
-    "RelativePath": "api/Books/{id}",
+    "RelativePath": "api/books/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -63,9 +63,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApi.Controllers.BooksController",
+    "ContainingType": "Presentation.Controller.BooksController",
     "Method": "DeleteOneBooks",
-    "RelativePath": "api/Books/{id}",
+    "RelativePath": "api/books/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -79,9 +79,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApi.Controllers.BooksController",
+    "ContainingType": "Presentation.Controller.BooksController",
     "Method": "PartiallyUpdateOneBook",
-    "RelativePath": "api/Books/{id}",
+    "RelativePath": "api/books/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,

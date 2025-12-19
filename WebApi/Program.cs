@@ -5,6 +5,7 @@ using WebApi.Extensions;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers()
+    .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
     .AddNewtonsoftJson();
 
 // Add services to the container.
