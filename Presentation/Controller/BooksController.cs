@@ -1,3 +1,4 @@
+using Entities.Exceptions;
 using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -34,11 +35,6 @@ namespace Presentation.Controller
             var book = _manager
             .BookService
             .GetOneBookById(id, false);
-
-            if (book is null)
-            {
-                return NotFound();
-            }
             return Ok(book);
         }
 
@@ -70,23 +66,17 @@ namespace Presentation.Controller
         public IActionResult DeleteOneBooks([FromRoute(Name = "id")] int id)
         {
             _manager.BookService.DeleteoneBook(id, false);
-
             return NoContent();
         }
 
         [HttpPatch("{id:int}")]
-        public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] JsonPatchDocument<Book> bookpatch)
+        public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] JsonPatchDocument<Book> bookPatch)
         {
             var entitiy = _manager
                 .BookService
                 .GetOneBookById(id, true);
 
-            if (entitiy is null)
-            {
-                return NotFound();
-            }
-
-            bookpatch.ApplyTo(entitiy);
+            bookPatch.ApplyTo(entitiy);
             _manager.BookService.UpdateOneBook(id, entitiy, true);
 
             return NoContent();
