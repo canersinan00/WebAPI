@@ -18,8 +18,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "book",
-        "Type": "Entities.Models.Book",
+        "Name": "bookDto",
+        "Type": "Entities.DataTransferObject.BookDtoForInsertion",
         "IsRequired": true
       }
     ],
