@@ -61,11 +61,15 @@ namespace Presentation.Controller
         {
             if (bookDto is null)
             {
-                return BadRequest();
+                return BadRequest(); //400
             }
-            _manager.BookService.UpdateOneBook(id, bookDto, true);
+            if (!ModelState.IsValid)
+            {
+                return UnprocessableEntity(ModelState); //422
+            }
+            _manager.BookService.UpdateOneBook(id, bookDto, false);
 
-            return NoContent();
+            return NoContent(); //204
         }
 
         [HttpDelete("{id:int}")]

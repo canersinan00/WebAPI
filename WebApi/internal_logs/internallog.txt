@@ -25,3 +25,6 @@
 2025-12-22 21:08:53.0129 Info Registered target NLog.Targets.FileTarget(Name=logfile)
 2025-12-22 21:08:53.0356 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
 2025-12-22 21:08:53.0624 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\NLog.config
+2025-12-22 21:22:41.8989 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-12-22 21:22:41.9102 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.6.4706. Product version: 6.0.6+1913a823347d47c0b004ce714af74436261daf20. GlobalAssemblyCache: False
+2025-12-22 21:22:41.9370 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\NLog.config
