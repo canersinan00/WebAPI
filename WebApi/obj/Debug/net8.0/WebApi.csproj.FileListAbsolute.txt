@@ -299,3 +299,5 @@ E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\Services.pdb
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\nlog.config
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\NLog.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\AutoMapper.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

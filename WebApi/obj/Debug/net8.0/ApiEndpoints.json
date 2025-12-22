@@ -55,8 +55,8 @@
         "IsRequired": true
       },
       {
-        "Name": "book",
-        "Type": "Entities.Models.Book",
+        "Name": "bookDto",
+        "Type": "Entities.DataTransferObject.BookDtoForUpdate",
         "IsRequired": true
       }
     ],
@@ -92,7 +92,7 @@
         "IsRequired": true
       },
       {
-        "Name": "bookpatch",
+        "Name": "bookPatch",
         "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
         "IsRequired": true
       }
