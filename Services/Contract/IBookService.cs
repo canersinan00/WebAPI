@@ -16,5 +16,8 @@ namespace Services.Contract
         void UpdateOneBook(int id, BookDtoForUpdate bookDto, bool trackChanges);
         void DeleteoneBook(int id, bool trackChanges);
 
+        (BookDtoForUpdate bookDtoForUpdate, Book book) GetOneBookForPatch(int id, bool trackChanges);
+
+        void SaveChangesForPatch(BookDtoForUpdate bookDtoForUpdate, Book book);
     }
 }
