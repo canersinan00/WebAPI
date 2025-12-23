@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Presentation.Controller.BooksController",
-    "Method": "GetAllBooks",
+    "Method": "GetAllBooksAsync",
     "RelativePath": "api/books",
     "HttpMethod": "GET",
     "IsController": true,
@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "Presentation.Controller.BooksController",
-    "Method": "CreateOneBook",
+    "Method": "CreateOneBookAsync",
     "RelativePath": "api/books",
     "HttpMethod": "POST",
     "IsController": true,
@@ -27,7 +27,7 @@
   },
   {
     "ContainingType": "Presentation.Controller.BooksController",
-    "Method": "GetOneBook",
+    "Method": "GetOneBookAysnc",
     "RelativePath": "api/books/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -43,7 +43,7 @@
   },
   {
     "ContainingType": "Presentation.Controller.BooksController",
-    "Method": "UpdateOneBook",
+    "Method": "UpdateOneBookAsync",
     "RelativePath": "api/books/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
@@ -64,7 +64,7 @@
   },
   {
     "ContainingType": "Presentation.Controller.BooksController",
-    "Method": "DeleteOneBooks",
+    "Method": "DeleteOneBooksAsync",
     "RelativePath": "api/books/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
@@ -80,7 +80,7 @@
   },
   {
     "ContainingType": "Presentation.Controller.BooksController",
-    "Method": "PartiallyUpdateOneBook",
+    "Method": "PartiallyUpdateOneBookAsync",
     "RelativePath": "api/books/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
