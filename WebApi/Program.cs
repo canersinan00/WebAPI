@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NLog;
+using Presentation.ActionFilter;
 using Repositories.EFCore;
 using Services.Contract;
 using WebApi.Extensions;
@@ -35,6 +36,7 @@ builder.Services.ConfifureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.ConfigureActionFilters();
 
 var app = builder.Build();
 
