@@ -8,6 +8,21 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "MinPrice",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxPrice",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ValidPriceRange",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
         "Name": "PageNumber",
         "Type": "System.Int32",
         "IsRequired": false
