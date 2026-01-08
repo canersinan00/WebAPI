@@ -301,3 +301,4 @@ E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\NLog.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\NLog.Extensions.Logging.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\AutoMapper.dll
 E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Projects\.Net\WebAPI\WebApi\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
