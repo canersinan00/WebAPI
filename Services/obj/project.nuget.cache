@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "F4Ler/4MR5c=",
+  "dgSpecHash": "dutyl53Yvp0=",
   "success": true,
   "projectFilePath": "E:\\Projects\\.Net\\WebAPI\\Services\\Services.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,8 @@
     "C:\\Users\\msi-nb\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\msi-nb\\.nuget\\packages\\nlog\\6.0.6\\nlog.6.0.6.nupkg.sha512",
-    "C:\\Users\\msi-nb\\.nuget\\packages\\nlog.extensions.logging\\6.1.0\\nlog.extensions.logging.6.1.0.nupkg.sha512"
+    "C:\\Users\\msi-nb\\.nuget\\packages\\nlog.extensions.logging\\6.1.0\\nlog.extensions.logging.6.1.0.nupkg.sha512",
+    "C:\\Users\\msi-nb\\.nuget\\packages\\system.linq.dynamic.core\\1.7.1\\system.linq.dynamic.core.1.7.1.nupkg.sha512"
   ],
   "logs": []
 }
